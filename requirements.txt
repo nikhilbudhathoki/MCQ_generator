@@ -1,0 +1,10 @@
+faiss-cpu
+langchain-groq
+groq
+PyPDF
+langchain_google_genai
+streamlit
+langchain_community
+python-dotenv
+pypdf
+docx
