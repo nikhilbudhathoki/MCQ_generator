@@ -14,7 +14,7 @@ import os
 from langchain.schema import Document
 import time
 load_dotenv()
-groq_api_key=os.getenv("groq_api_key")
+groq_api_key=os.getenv("GROQ_API_KEY")
 os.environ['GOOGLE_API_KEY']=os.getenv("GOOGLE_API_KEY")
 st.title("GEMMA MODEL CHATBOT")
 st.write("Please Select according to given details\n: If the class is more and topic is complicated it may take some time .\n\n Please refresh the page and try again . \nThank you! ")
